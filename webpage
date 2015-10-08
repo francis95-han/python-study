@@ -1,0 +1,24 @@
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
+for eachline in f:
+    print eachline,
+f.close()
