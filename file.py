@@ -1,5 +1,4 @@
-# coding = utf-8webpage
-
+# coding : utf-8
 __author__ = 'bohan'
 
 filename = raw_input('Enter filename:')
