@@ -1,5 +1,5 @@
 # coding=utf-8
-_author_='bohan'
+_author_='love_huan'
 def create(smallest,largest):
     intSet=[]
     for i in range(smallest,largest+1): intSet.append(None)
