@@ -1,5 +1,6 @@
 # coding:utf-8
 __author__ = 'love_huan'
+
 from  random import randint, choice
 from string import lowercase
 from sys import maxint

@@ -1,5 +1,4 @@
 # coding=utf-8
-#!/usr/bin/env python
 __author__ = 'bohan'
 db = {}
 
@@ -50,7 +49,6 @@ Enter choice: """
         if (choice == 'q'): done = True
         if (choice == 'n'): newuser()
         if (choice == 'e'): olduser()
-
 
 if __name__ == '__main__':
     showmenu()
