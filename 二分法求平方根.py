@@ -22,6 +22,6 @@ def squartRoot(x,epsilon):
     assert ctr<=100,'溢出了'
     return guess
 
-a=float(raw_input("请输入你所要求的数字"))
-b=float(raw_input("请输入你所要求的精确度"))
-print squartRoot(a,b)
+a=float(input("请输入你所要求的数字"))
+b=float(input("请输入你所要求的精确度"))
+print( squartRoot(a,b))

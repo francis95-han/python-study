@@ -2,7 +2,7 @@
 __author__ = 'love_huan'
 
 from  random import randint, choice
-from string import lowercase
+from string import ascii_lowercase
 from sys import maxint
 from time import ctime
 

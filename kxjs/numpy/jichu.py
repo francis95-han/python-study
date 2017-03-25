@@ -1,9 +1,9 @@
 # coding:utf-8
 __author__ = 'love_huan'
-import numpy as np
+import numpy
 
-a = np.array([1, 2, 3, 4, 5])
-b = np.array([[1, 2, 3, 4], [1, 1, 1, 1]])
+a = numpy.array([1, 2, 3, 4, 5])
+b = numpy.array([[1, 2, 3, 4], [1, 1, 1, 1]])
 c = b.reshape((4,-1))
 print(c)
 
