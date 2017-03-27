@@ -14,9 +14,9 @@ tcpSerSock.bind(ADDR)
 tcpSerSock.listen(5)
 
 while True:
-    print 'waiting for connect......'
+    print('waiting for connect......')
     tcpCliSock, addr = tcpSerSock.accept()
-    print '...connneceted from:', addr
+    print('...connneceted from:', addr)
 
     while True:
         data = tcpCliSock.recv(BUFSIZ)

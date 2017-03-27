@@ -4,14 +4,15 @@ __author__ = 'love_huan'
 
 import ftplib, os, socket
 
-HOST = raw_input('你要连接的FTP站点')
-DIRN = raw_input('你所需下载的文件的路径')
-FILE = raw_input('你要下载的文件名')
+HOST = input('你要连接的FTP站点')
+DIRN = input('你所需下载的文件的路径')
+FILE = input('你要下载的文件名')
 
 
 def main():
     try:
         f = ftplib.FTP(HOST)
+
     except (socket.error, socket.gaierror), e:
         print('ERROR:can\'t reach "%s" ' % HOST)
         return
