@@ -8,7 +8,7 @@ ls = os.linesep
 
 # get filename
 while True:
-    fname = raw_input('please input a file name to save filenames:%s' % ls)
+    fname = input('please input a file name to save filenames:%s' % ls)
     if os.path.exists(fname):
         print("Error:'%s' already exists" % fname)
     else:
@@ -20,7 +20,7 @@ print("\nEnter lines,('.'by itself to quit).\n")
 
 # loop until user terminates input
 while True:
-    entry = raw_input(">>>")
+    entry = input(">>>")
     if entry == ".":
         break
     else:
