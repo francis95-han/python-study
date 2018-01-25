@@ -1,6 +1,7 @@
-# coding:utf-8
-__author__ = "love_huan"
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from functools import partial
+
 import Tkinter
 
 root = Tkinter.Tk()

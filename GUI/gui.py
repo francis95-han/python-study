@@ -1,7 +1,7 @@
-# coding:utf-8
-__author__ = 'love_huan'
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-from Tkinter import *
+from tkinter import *
 
 top = Tk()
 
