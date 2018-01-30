@@ -19,7 +19,8 @@ def firstLast(webpage):
     print(firstNonBlank(lines))
 def download(url="http://www.baidu.com", process=firstLast):
     try:
-        retval = urllib.request(url)[0]
+        retval = urllib.request.urlopen(url)
+        print(retval.status)
     except IOError:
         retval = None
     if retval:

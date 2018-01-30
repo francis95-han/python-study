@@ -3,6 +3,7 @@
 
 myList = [12, 135, 156, 473, 213]
 myList2 = [123, 453, 12, 31, 111]
+mylist=list('ad','asda','fa')
 print(myList + myList2)
 print(myList * 3)
 print(len(myList))
