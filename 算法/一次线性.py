@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-__author__ = 'love_huan'
 from scipy import stats
 import numpy as np
 import pylab

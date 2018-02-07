@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import curses
-from  random import randrange, choice
+from random import randrange, choice
 from collections import defaultdict
 
 action = ['Up', 'Down', 'Left', 'Right', 'Restart', 'Exit']

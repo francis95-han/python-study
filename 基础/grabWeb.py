@@ -3,7 +3,7 @@
 import os
 import urllib.parse
 import urllib.request
-
+#python3中urlib和urlib2合成了一个
 ls = os.linesep
 local_path = '.\webpage'
 
