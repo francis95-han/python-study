@@ -11,7 +11,7 @@ import time
 def tongpai():
     for i in range(0, 1000):
         for j in range(1, count[i] + 1):
-            print(i)
+            print(i,end=' ')
 # 对大小为M的count数组初始华为0
 count = []
 for i in range(0, 1000):
