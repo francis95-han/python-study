@@ -42,20 +42,30 @@ def getLeftChild(root):
 
 def getRightChild(root):
     return root[2]
+x = BinaryTree('a')
+insertLeft(x,'b')
+insertRight(x,'c')
+insertRight(getLeftChild(x),'d')
+insertRight(getRightChild(x),'f')
+insertLeft(getRightChild(x),'e')
+print(x)
 
-
-r = BinaryTree(3)
-insertLeft(r, 4)
-insertLeft(r, 5)
-insertRight(r, 6)
-insertRight(r, 7)
-l = getLeftChild(r)
-print(l)
-setRootVal(l, 9)
-print(r)
-insertLeft(l, 11)
-print(r)
-print(getRightChild(getRightChild(r)))
+#           a
+#       b   |   c
+#       d   | f |  e
+#
+# r = BinaryTree(3)
+# insertLeft(r, 4)
+# insertLeft(r, 5)
+# insertRight(r, 6)
+# insertRight(r, 7)
+# l = getLeftChild(r)
+# print(l)
+# setRootVal(l, 9)
+# print(r)
+# insertLeft(l, 11)
+# print(r)
+# print(getRightChild(getRightChild(r)))
 
 
 #
@@ -94,14 +104,14 @@ class BinaryTree:
         return self.key
 
 
-r = BinaryTree('a')
-print(r.getRootVal())
-print(r.getLeftChild())
-r.insertLeft('b')
-print(r.getLeftChild())
-print(r.getLeftChild().getRootVal())
-r.insertRight('c')
-print(r.getRightChild())
-print(r.getRightChild().getRootVal())
-r.getRightChild().setRootVal('hello')
-print(r.getRightChild().getRootVal())
+# r = BinaryTree('a')
+# print(r.getRootVal())
+# print(r.getLeftChild())
+# r.insertLeft('b')
+# print(r.getLeftChild())
+# print(r.getLeftChild().getRootVal())
+# r.insertRight('c')
+# print(r.getRightChild())
+# print(r.getRightChild().getRootVal())
+# r.getRightChild().setRootVal('hello')
+# print(r.getRightChild().getRootVal())
