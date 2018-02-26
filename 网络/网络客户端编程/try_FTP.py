@@ -1,6 +1,6 @@
 # coding:utf-8
 #可添加功能如GUI等制作成一个FTP连接工具
-__author__ = 'love_huan'
+__author__ = 'ZhangBohan'
 
 import ftplib, os, socket
 
