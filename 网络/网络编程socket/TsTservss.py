@@ -1,5 +1,5 @@
 # coding:utf-8
-__author__ = 'love_huan'
+__author__ = 'ZhangBohan'
 from SocketServer import (TCPServer as TCP, StreamRequestHandler as SRH)
 from time import ctime
 
