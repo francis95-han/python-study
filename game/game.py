@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# import 2048
 import curses
 from random import randrange, choice
 from collections import defaultdict
