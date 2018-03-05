@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# 算法复杂度 O(2nln(n))
 def quicakSort(lists, left, right):
     # 快速排序
     if left >= right:
@@ -21,6 +21,6 @@ def quicakSort(lists, left, right):
     return lists
 
 
-alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+alist = [54, 26, 93, 17,34,11,1231,51,123,124,13,15,64,2,4,643, 77, 31, 44, 55, 20]
 quicakSort(alist, 0, len(alist) - 1)
 print(alist)

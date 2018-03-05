@@ -8,8 +8,8 @@ from smtplib import  SMTP
 from poplib import  POP3
 from time import sleep
 
-SMTPSVR ='smtp.qq.com'
-POP3SVR = 'pop.qq.com'
+SMTPSVR ='smtp.qq.com'    #发邮件
+POP3SVR = 'pop.qq.com'		#收邮件
 
 origHdrs=['From:352049215@qq.com','To: 352049215@qq.com','Subject:test mail']
 origBody = ['xxx','yyy','zzz']
