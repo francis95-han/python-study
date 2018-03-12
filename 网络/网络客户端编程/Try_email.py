@@ -1,5 +1,5 @@
 #coding:utf-8
-#不知道为什么啊  python用qq邮箱发送邮箱不行啊
+#python用qq邮箱收发邮件需要在qq邮箱里设置第三方授权码，这里没有第三方授权码所以暂时不能用，可以用其他有相机进行测试
 # smtplib.SMTPSenderRefused: (503, 'Error: need EHLO and AUTH first !', '352049215@qq.com')
 # 提示要获取权限什么的
 __author__ = 'ZhangBohan'
@@ -16,7 +16,7 @@ origBody = ['xxx','yyy','zzz']
 origMsg = '\r\n\r\n'.join(['\r\n'.join(origHdrs),'\r\n'.join(origBody)])
 
 sendSvr = SMTP(SMTPSVR)
-errs = sendSvr.sendmail('352049215@qq.com',('352049215@qq.com'),origMsg)
+errs = sendSvr.sendmail('352049215@qq.com',('rrzdxkwozxbpbihc'),origMsg)
 sendSvr.quit()
 assert len(errs)==0,errs
 sleep(10)
