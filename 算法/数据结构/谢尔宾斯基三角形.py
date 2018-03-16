@@ -32,7 +32,7 @@ def main():
     myTurtle = turtle.Turtle()
     myWin = turtle.Screen()
     myPoints = [[-300, -100], [0, 300], [300, -100]]
-    sierpinski(myPoints, 6, myTurtle)
+    sierpinski(myPoints, 2, myTurtle)
     myWin.exitonclick()
 
 
