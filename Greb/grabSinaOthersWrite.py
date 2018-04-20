@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @author zhangbohan.dell@gmail.com
 # @create 2018-03-09 10:21
-# https://www.cnblogs.com/zengbojia/p/7220190.html
+# @copy https://www.cnblogs.com/zengbojia/p/7220190.html
 # 获取新闻的标题，内容，时间和评论数
 import requests
 from bs4 import BeautifulSoup

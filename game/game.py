@@ -4,7 +4,7 @@
 import curses
 from random import randrange, choice
 from collections import defaultdict
-
+import math
 action = ['Up', 'Down', 'Left', 'Right', 'Restart', 'Exit']
 letter_codes = [ord(ch) for ch in 'WASDRQwasdrq']
 action_dict = dict(zip(letter_codes, action * 2))
@@ -59,7 +59,6 @@ def main(stdscr):
     while state != 'Exit':
         state = state_actions[state]()
 
-
     # 用户输入处理
     def get_user_action(keyboard):
         char = 'N'
@@ -75,6 +74,7 @@ def main(stdscr):
     def invert(field):
         return [row[::-1] for row in field]
 
+
 class Gamefield(object):
     def __init__(self, height=4, width=4, win=2048):
         self.height = height
@@ -86,14 +86,16 @@ class Gamefield(object):
 
     def spawn(self):
         new_element = 4 if randrange(100) > 89 else 2
-        (i, j) = choice([(i, j) for i in range(self.width) for j in range(self.height) if self.filed[i][j] == 0])
+        (i, j) = choice([(i, j) for i in range(self.width)
+                         for j in range(self.height) if self.filed[i][j] == 0])
         self.filed[i][j] = new_element
 
     def reset(self):
         if self.score > self.highscore:
             self.highscore = self.score
         self.score = 0
-        self.field = [[0 for i in range(self.width)] for j in range(self.height)]
+        self.field = [[0 for i in range(self.width)]
+                      for j in range(self.height)]
         self.spawn()
         self.spawn()
 
@@ -128,8 +130,10 @@ class Gamefield(object):
             moves = {}
             moves['Left'] = lambda field: [mov_row_left(row) for row in field]
             moves['Right'] = lambda field: invert(moves['Left'](invert(field)))
-            moves['Up'] = lambda field: transpose(moves['Left'](transpose(field)))
-            moves['Down'] = lambda field: transpose(moves['Right'](transpose(field)))
+            moves['Up'] = lambda field: transpose(
+                moves['Left'](transpose(field)))
+            moves['Down'] = lambda field: transpose(
+                moves['Right'](transpose(field)))
 
             if direction() in moves:
                 if self.move_is_possible(direction):
@@ -159,7 +163,8 @@ class Gamefield(object):
             return any(change(i) for i in range(len(row) - 1))
 
         check = {}
-        check['Left'] = lambda field: any(row_is_left_movable(row) for row in field)
+        check['Left'] = lambda field: any(
+            row_is_left_movable(row) for row in field)
         check['Right'] = lambda field: check['Left'](invert(field))
         check['Up'] = lambda field: check['Left'](transpose(field))
         check['Down'] = lambda field: check['Right'](transpose(field))
@@ -187,7 +192,8 @@ class Gamefield(object):
                 draw_hor_separator.counter += 1
 
         def draw_row(row):
-            cast('', join('|{:^5'.format(num) if num > 0 else '|         ' for num in row) + '|')
+            cast('', join('|{:^5'.format(num) if num >
+                          0 else '|         ' for num in row) + '|')
 
         screen.clear()
         cast('SCORE:' + str(self.score))
@@ -207,4 +213,6 @@ class Gamefield(object):
             else:
                 cast(help_string1)
         cast(help_string2)
+
+
 curses.wrapper(main)

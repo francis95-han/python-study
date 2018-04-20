@@ -11,4 +11,4 @@ split astring.split(schar) 以schar 为分隔符，将原字符串分割，返�
 '''
 
 myName = '张博涵'
-print(myName)
+print(myName[1])
