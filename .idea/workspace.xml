@@ -2,59 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab1c338-7d3f-437d-a33b-5c89ac2d1a51" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CTF/Day01/OldPasswd.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CTF/Day01/VariationOfCaesar.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CTF/Day01/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CTF/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/Test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic/study/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/debugger/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/debugger/my_debugger.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/debugger/my_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/debugger/pydbgTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/game/RubiksCube.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/practice/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/practice/practiceOne.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_study.iml" afterPath="$PROJECT_DIR$/.idea/python_study.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/debugger_blog/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/debugger_blog/debugg.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/debugger_blog/debugger_defines.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/debugger_blog/test.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Greb/grabSinaOthersWrite.py" afterPath="$PROJECT_DIR$/Greb/grabSinaOthersWrite.py" />
-      <change beforePath="$PROJECT_DIR$/game/3 7.py" afterPath="$PROJECT_DIR$/game/3 7.py" />
-      <change beforePath="$PROJECT_DIR$/game/game.py" afterPath="$PROJECT_DIR$/game/game.py" />
-      <change beforePath="$PROJECT_DIR$/game/test.py" afterPath="$PROJECT_DIR$/game/test.py" />
-      <change beforePath="$PROJECT_DIR$/基础/5.txt" afterPath="$PROJECT_DIR$/basic/study/5.txt" />
-      <change beforePath="$PROJECT_DIR$/基础/Class_study.py" afterPath="$PROJECT_DIR$/basic/study/Class_study.py" />
-      <change beforePath="$PROJECT_DIR$/基础/NR法求平方根（未完）.py" afterPath="$PROJECT_DIR$/basic/study/NR法求平方根（未完）.py" />
-      <change beforePath="$PROJECT_DIR$/基础/ReTest.py" afterPath="$PROJECT_DIR$/basic/study/ReTest.py" />
-      <change beforePath="$PROJECT_DIR$/基础/class.py" afterPath="$PROJECT_DIR$/basic/study/class.py" />
-      <change beforePath="$PROJECT_DIR$/基础/dic.py" afterPath="$PROJECT_DIR$/basic/study/dic.py" />
-      <change beforePath="$PROJECT_DIR$/基础/gendata.py" afterPath="$PROJECT_DIR$/basic/study/gendata.py" />
-      <change beforePath="$PROJECT_DIR$/基础/grabWeb.py" afterPath="$PROJECT_DIR$/basic/study/grabWeb.py" />
-      <change beforePath="$PROJECT_DIR$/基础/i_O.py" afterPath="$PROJECT_DIR$/basic/study/i_O.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list.py" afterPath="$PROJECT_DIR$/basic/study/list.py" />
-      <change beforePath="$PROJECT_DIR$/基础/makeTextFile.py" afterPath="$PROJECT_DIR$/basic/study/makeTextFile.py" />
-      <change beforePath="$PROJECT_DIR$/基础/mit_lecture_15.py" afterPath="$PROJECT_DIR$/basic/study/mit_lecture_15.py" />
-      <change beforePath="$PROJECT_DIR$/基础/mit_lecture_16.py" afterPath="$PROJECT_DIR$/basic/study/mit_lecture_16.py" />
-      <change beforePath="$PROJECT_DIR$/基础/ospath.py" afterPath="$PROJECT_DIR$/basic/study/ospath.py" />
-      <change beforePath="$PROJECT_DIR$/基础/set.py" afterPath="$PROJECT_DIR$/basic/study/set.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str.py" afterPath="$PROJECT_DIR$/basic/study/str.py" />
-      <change beforePath="$PROJECT_DIR$/基础/suanfa_hash.py" afterPath="$PROJECT_DIR$/basic/study/suanfa_hash.py" />
-      <change beforePath="$PROJECT_DIR$/基础/suijishu.py" afterPath="$PROJECT_DIR$/basic/study/suijishu.py" />
-      <change beforePath="$PROJECT_DIR$/基础/test.py" afterPath="$PROJECT_DIR$/basic/study/test.py" />
-      <change beforePath="$PROJECT_DIR$/基础/tuple.py" afterPath="$PROJECT_DIR$/basic/study/tuple.py" />
-      <change beforePath="$PROJECT_DIR$/基础/userpw.py" afterPath="$PROJECT_DIR$/basic/study/userpw.py" />
-      <change beforePath="$PROJECT_DIR$/基础/webpage" afterPath="$PROJECT_DIR$/basic/study/webpage" />
-      <change beforePath="$PROJECT_DIR$/基础/正则表达式.py" afterPath="$PROJECT_DIR$/basic/study/正则表达式.py" />
-      <change beforePath="$PROJECT_DIR$/基础/转义字符.py" afterPath="$PROJECT_DIR$/basic/study/转义字符.py" />
-      <change beforePath="$PROJECT_DIR$/算法/排序/希尔排序.py" afterPath="$PROJECT_DIR$/算法/排序/希尔排序.py" />
-      <change beforePath="$PROJECT_DIR$/算法/数据结构/Recursion递归.py" afterPath="$PROJECT_DIR$/算法/数据结构/Recursion递归.py" />
-      <change beforePath="$PROJECT_DIR$/网络/网络客户端编程/try_FTP.py" afterPath="$PROJECT_DIR$/网络/网络客户端编程/try_FTP.py" />
     </list>
     <ignored path="python_study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,12 +56,34 @@
     <favorites_list name="python_study" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="OldPasswd.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CTF/Day01/OldPasswd.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="debugger_defines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debugger_blog/debugger_defines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debugg.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/debugger_blog/debugg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <element signature="e#170#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debugger_blog/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -159,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NR法求平方根（未完）.py" />
-        <option value="$PROJECT_DIR$/一次线性.py" />
-        <option value="$PROJECT_DIR$/二分法求平方根.py" />
         <option value="$PROJECT_DIR$/ospath.py" />
         <option value="$PROJECT_DIR$/kxjs/numpy/jichu.py" />
         <option value="$PROJECT_DIR$/kxjs/numpy/struct.py" />
@@ -210,6 +181,9 @@
         <option value="$PROJECT_DIR$/debugger/my_debugger.py" />
         <option value="$PROJECT_DIR$/debugger/ctypes_test.py" />
         <option value="$PROJECT_DIR$/game/3 7.py" />
+        <option value="$PROJECT_DIR$/debugger_blog/debugger_defines.py" />
+        <option value="$PROJECT_DIR$/debugger_blog/test.py" />
+        <option value="$PROJECT_DIR$/debugger_blog/debugg.py" />
       </list>
     </option>
   </component>
@@ -219,7 +193,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="976" />
     <option name="y" value="93" />
     <option name="width" value="976" />
@@ -262,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,15 +243,21 @@
               <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="debugger_blog" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.buildout.BuildoutModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="269" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="276" />
@@ -301,12 +280,13 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="python_study" sdk-home="c:\Anaconda3\python.exe">
-        <option name="mySdkHome" value="c:\Anaconda3\python.exe" />
+      <console-settings module-name="python_study" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="python_study" />
-        <option name="myAddContentRoots" value="false" />
+        <option name="myAddSourceRoots" value="true" />
       </console-settings>
     </option>
+    <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -327,21 +307,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3 7">
-    <configuration name="冒泡法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="一次线性" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序/冒泡法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/一次线性.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,25 +362,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CTF/Day01/OldPasswd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="一次线性" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_study" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/一次线性.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
@@ -499,6 +460,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="debugg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debugger_blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_study" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debugger_blog/debugg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="greb" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -556,20 +536,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debugger_blog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_study" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debugger_blog/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -711,19 +691,18 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.greb" />
-      <item index="1" class="java.lang.String" itemvalue="Python.3 7" />
-      <item index="2" class="java.lang.String" itemvalue="Python.my_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.冒泡法" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ctypes_test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.一次线性" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3 7" />
+      <item index="3" class="java.lang.String" itemvalue="Python.my_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.debugg" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3 7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.my_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ctypes_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.冒泡法" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debugg" />
+        <item index="2" class="java.lang.String" itemvalue="Python.my_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.3 7" />
       </list>
     </recent_temporary>
   </component>
@@ -764,16 +743,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1168" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1168" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3390558" sideWeight="0.49648947" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TagMyCode" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32798395" sideWeight="0.5021142" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3277897" sideWeight="0.49348044" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32798395" sideWeight="0.50651956" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5847543" sideWeight="0.50651956" order="14" side_tool="false" content_ui="tabs" x="682" y="146" width="1161" height="997" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48244736" sideWeight="0.50651956" order="14" side_tool="false" content_ui="tabs" x="682" y="146" width="1161" height="997" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.40722167" sideWeight="0.49648947" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1807611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1807611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998997" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7432297" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -871,6 +850,39 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/debugger_blog/debugger_defines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger_blog/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger_blog/debugg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="e#170#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CTF/Day01/OldPasswd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/debugger/my_debugger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1067,13 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debugger/my_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/debugger/my_debugger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,9 +1088,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CTF/Day01/OldPasswd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger/my_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger_blog/debugger_defines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger_blog/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugger_blog/debugg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="e#170#190#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
