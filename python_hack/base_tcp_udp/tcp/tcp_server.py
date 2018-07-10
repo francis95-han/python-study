@@ -22,13 +22,13 @@ def handle_client(client_socket):
     request = client_socket.recv(1024)
     print("[*] Receiced %s" % request)
     #     返还一个数据包
-    client_socket.send(("ACK!").encode())
+    client_socket.send("ACK!".encode())
     client_socket.close()
 
 
 while True:
     client, attr = server.accept()
-    print("[*] Accepted connection from %s:%d" % (attr[0], attr[1]))
+    print("[*] Accepted connection from {0}:{1}".format(attr[0], attr[1]))
     # 挂起客户端线程，处理传入的数据
-    client_handler = threading.Thread(target=handle_client,args=(client,))
+    client_handler = threading.Thread(target=handle_client, args=(client,))
     client_handler.start()

