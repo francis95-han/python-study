@@ -3,8 +3,7 @@
 # @Author  : giantbranch (giantbranch@gmail.com)
 # @Link    : http://blog.csdn.net/u012763794?viewmode=contents
 
-from ctypes import *
-from debugger_blog.debugger_defines import *
+from hack.debugger.debugger_blog.debugger_defines import *
 
 kernel32 = windll.kernel32
 

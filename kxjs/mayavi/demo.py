@@ -9,9 +9,9 @@ mlab.figure(fgcolor=(0, 0, 0), bgcolor=(1, 1, 1))  # 更改背景色
 
 
 # 添加matlab的peaks函数
-def peaks(x, y):
-    return 3.0 * (1.0 - x) ** 2 * exp(-(x ** 2) - (y + 1.0) ** 2) - 10 * (x / 5.0 - x ** 3 - y ** 5) * exp(
-        -x ** 2 - y ** 2) - 1.0 / 3.0 * exp(-(x + 1.0) ** 2 - y ** 2)
+def peaks(first, second):
+    return 3.0 * (1.0 - first) ** 2 * exp(-(first ** 2) - (second + 1.0) ** 2) - 10 * (first / 5.0 - first ** 3 - second ** 5) * exp(
+        -first ** 2 - second ** 2) - 1.0 / 3.0 * exp(-(first + 1.0) ** 2 - second ** 2)
 
 
 s = np.random.rand(3, 3)

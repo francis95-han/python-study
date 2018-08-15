@@ -3,7 +3,7 @@
 # @Author  : giantbranch (giantbranch@gmail.com)
 # @Link    : http://blog.csdn.net/u012763794?viewmode=contents
 
-import debugger_blog.debugg
+import hack.debugger.debugger_blog.debugg
 
-debugger =debugger_blog.debugg.debugger()
+debugger = hack.debugger.debugger_blog.debugg.debugger()
 debugger.load("C:\\WINDOWS\\system32\\calc.exe")

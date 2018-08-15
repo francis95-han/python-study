@@ -3,19 +3,23 @@
 """ @author zhangbohan.dell@gmail.com
     @function:
     @create 18-5-28 下午9:33"""
-import socket, paramiko, threading, sys
+import paramiko
+import socket
+import sys
+import threading
 
 host_key = paramiko.RSAKey(filename='key.key')
+
+
+def check_channel_request(kind, chanid):
+    if kind == 'session':
+        return paramiko.OPEN_SUCCEEDED
+    return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
 
 
 class Server(paramiko.ServerInterface):
     def __init__(self):
         self.event = threading.Event()
-
-    def check_channel_request(self, kind, chanid):
-        if kind == 'session':
-            return paramiko.OPEN_SUCCEEDED
-        return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
 
     def check_auth_password(self, username, password):
         if username == 'root' and password == 'gj5846gj..':
@@ -38,14 +42,14 @@ except Exception as e:
 print('[+] Got a connection')
 
 try:
-    bhSession = paramiko.Transport(client)
-    bhSession.add_server_key(host_key)
+    bh_session = paramiko.Transport(client)
+    bh_session.add_server_key(host_key)
     SERVER = Server()
     try:
-        bhSession.start_server(server=server)
+        bh_session.start_server(server=server)
     except paramiko.SSHException as e:
         print("[-] SSH negotion failed:" + str(e))
-    chan = bhSession.accept(20)
+    chan = bh_session.accept(20)
     print('[+] Authenticated!')
     print(chan.recv(1024))
     chan.send('Welcome to bh_ssh')
@@ -58,13 +62,13 @@ try:
             else:
                 chan.send('send')
                 print('exiting')
-                bhSession.close()
+                bh_session.close()
                 raise Exception('exit')
         except KeyboardInterrupt:
-            bhSession.close()
+            bh_session.close()
 except Exception as e:
     print('[-] Caught exception :'+str(e))
     try:
-        bhSession.close()
+        bh_session.close()
     except:
         pass

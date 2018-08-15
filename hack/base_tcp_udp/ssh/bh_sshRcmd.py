@@ -4,7 +4,9 @@
     @function:
     @create 18-5-28 下午9:11"""
 
-import threading, paramiko, subprocess
+import paramiko
+import subprocess
+import threading
 
 
 def ssh_command(ip, user, password, command):

@@ -6,9 +6,9 @@ from tkinter import *
 top = Tk()
 
 
-
 def resize(ev=None):
     label.config(font='Helvetica - %d bold' % scale.get())
+
 
 # 文本
 label = Label(top, text='hello world', font='Helvetica -12 bold')
