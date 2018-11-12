@@ -24,4 +24,3 @@ def charShift(string, width=1, times=25):
 string = 'XZSDMFLZ'
 for i in charShift(string):
     print(i)
-

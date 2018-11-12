@@ -15,11 +15,11 @@ class P:
         self.p = p
         self.p1 = p1
         self.i = i
-        self.psurplus= self.getpsurplus(i)
+        self.psurplus= self.get_psurplus(i)
 
-    def getpsurplus(self, n):
+    def get_psurplus(self, n):
         if n > 1:
-                return 100 - (self.p + self.p1) * self.getpsurplus(n - 1)
+                return 100 - (self.p + self.p1) * self.get_psurplus(n - 1)
         else:
             return 100 - self.p1 - self.p
 

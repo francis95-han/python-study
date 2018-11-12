@@ -47,7 +47,7 @@ class DouBanSpider(Thread):
 
     def parse_page(self):
         '''
-        解析网站源码，并采用ｘｐａｔｈ提取　电影名称和平分放到队列中
+        解析网站源码，并采用xpath提取电影名称和平分放到队列中
         :return:
         '''
         response = self.send_request(self.url)
