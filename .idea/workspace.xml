@@ -7,16 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bab1c338-7d3f-437d-a33b-5c89ac2d1a51" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/并发测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/模拟测试abtestclient接口(多线程版本).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/模拟测试abtestclient接口.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working/模拟测试abtestclient接口压力测试版本.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/easyGUI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/gui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/ThreadDemo/ThreadMoreDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/ThreadDemo/ThreadMoreDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hack/CTF/Day01/OldPasswd.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack/CTF/Day01/OldPasswd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/working/moni.py" beforeDir="false" afterPath="$PROJECT_DIR$/working/moni.py" afterDir="false" />
     </list>
     <ignored path="python_study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,6 +24,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_study$practiceOne.coverage" NAME="practiceOne Coverage Results" MODIFIED="1521449362545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practice" />
+    <SUITE FILE_PATH="coverage/python_study$pytest_in_abtestclient_py.coverage" NAME="pytest in 模拟测试abtestclient接口压力测试版本.py Coverage Results" MODIFIED="1543393295243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working" />
     <SUITE FILE_PATH="coverage/python_study$MontyHall_three_door_question.coverage" NAME="MontyHall_three_door_question Coverage Results" MODIFIED="1538014803846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm/probability_theory" />
     <SUITE FILE_PATH="coverage/python_study$3_7.coverage" NAME="3 7 Coverage Results" MODIFIED="1521032993998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" />
     <SUITE FILE_PATH="coverage/python_study$.coverage" NAME="图示递归 Coverage Results" MODIFIED="1521534819375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/数据结构" />
@@ -42,6 +39,7 @@
     <SUITE FILE_PATH="coverage/python_study$demo.coverage" NAME="demo Coverage Results" MODIFIED="1537950615696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kxjs/mayavi" />
     <SUITE FILE_PATH="coverage/python_study$Recursion.coverage" NAME="Recursion递归 Coverage Results" MODIFIED="1521534460407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/算法/数据结构" />
     <SUITE FILE_PATH="coverage/python_study$game__1_.coverage" NAME="game (1) Coverage Results" MODIFIED="1521124046530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game/py/checkio/org/game1/1" />
+    <SUITE FILE_PATH="coverage/python_study$pytest_in_abtestclient___py.coverage" NAME="pytest in 模拟测试abtestclient接口(多线程版本).py Coverage Results" MODIFIED="1543393436169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/working" />
     <SUITE FILE_PATH="coverage/python_study$OldPasswd.coverage" NAME="OldPasswd Coverage Results" MODIFIED="1521682631040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CTF/Day01" />
     <SUITE FILE_PATH="coverage/python_study$str.coverage" NAME="str Coverage Results" MODIFIED="1521458142673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
     <SUITE FILE_PATH="coverage/python_study$greb.coverage" NAME="greb Coverage Results" MODIFIED="1526893437278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greb" />
@@ -76,44 +74,48 @@
     <session id="910814831">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="3" />
           <entry key="project.open.time.18" value="5" />
-          <entry key="project.open.time.19" value="5" />
-          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.19" value="8" />
+          <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.77" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="6" />
+          <entry key="csv" value="7" />
           <entry key="lastfailed" value="1" />
+          <entry key="md" value="1" />
           <entry key="png" value="3" />
-          <entry key="py" value="106" />
+          <entry key="py" value="117" />
           <entry key="pyi" value="1" />
           <entry key="sql" value="2" />
           <entry key="txt" value="1" />
           <entry key="vmoptions" value="1" />
           <entry key="webpage" value="1" />
+          <entry key="模拟测试abtestclient接口" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="2" />
+          <entry key="CSV" value="3" />
           <entry key="Image" value="3" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="106" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="117" />
           <entry key="PythonStub" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -121,16 +123,18 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="Python" value="4584" />
+          <entry key="Python" value="4690" />
           <entry key="Scratch" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
+          <entry key="md" value="5" />
           <entry key="mp3" value="7" />
-          <entry key="py" value="4257" />
+          <entry key="py" value="4363" />
           <entry key="pyw" value="320" />
           <entry key="sql" value="35" />
           <entry key="txt" value="7" />
@@ -144,11 +148,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/study_practice.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hack/base_tcp_udp/ssh/bh_sshRcmd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1375">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/working/moni.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <marker date="1541583946289" expanded="true" signature="172:524" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口(多线程版本).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+              <folding>
+                <element signature="e#134#153#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1382504943/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-236">
+              <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口压力测试版本.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="102" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -178,6 +233,7 @@
       <find>ONESTRING</find>
       <find>getInfo</find>
       <find>;</find>
+      <find>error</find>
     </findStrings>
     <replaceStrings>
       <replace>print （</replace>
@@ -198,10 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/debugger_blog/debugg.py" />
-        <option value="$PROJECT_DIR$/ThreadDemo/ThreadDemo.py" />
-        <option value="$PROJECT_DIR$/ThreadDemo/ThreadDemo2.py" />
-        <option value="$PROJECT_DIR$/ThreadDemo/gevent.py" />
         <option value="$PROJECT_DIR$/ThreadDemo/GeventMoreDemo.py" />
         <option value="$PROJECT_DIR$/ThreadDemo/ThreadMoreDemo.py" />
         <option value="$PROJECT_DIR$/算法/排序/选择排序.py" />
@@ -244,11 +296,15 @@
         <option value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/riodge.py" />
         <option value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/ridge.py" />
         <option value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/lasso.py" />
-        <option value="$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/study_practice.py" />
         <option value="$PROJECT_DIR$/working/moni.py" />
         <option value="$PROJECT_DIR$/basic/ThreadDemo/ThreadMoreDemo.py" />
         <option value="$PROJECT_DIR$/hack/CTF/Day01/OldPasswd.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/study_practice.py" />
+        <option value="$PROJECT_DIR$/../../machinelearning/README.md" />
+        <option value="$PROJECT_DIR$/working/模拟测试abtestclient接口.py" />
+        <option value="$PROJECT_DIR$/working/模拟测试abtestclient接口压力测试版本.py" />
+        <option value="$PROJECT_DIR$/working/模拟测试abtestclient接口(多线程版本).py" />
       </list>
     </option>
   </component>
@@ -259,10 +315,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="407" />
-    <option name="y" value="244" />
+    <option name="x" value="2220" />
+    <option name="y" value="-14" />
     <option name="width" value="956" />
-    <option name="height" value="1162" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,18 +350,27 @@
           <expand>
             <path>
               <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
+              <item name="python_study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
-              <item name="kaggle" type="462c0819:PsiDirectoryNode" />
+              <item name="python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="working" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machinelearning" type="462c0819:PsiDirectoryNode" />
-              <item name="kaggle" type="462c0819:PsiDirectoryNode" />
-              <item name="housr_price" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_study) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (python_study) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-1382504943" type="70582d5e:PySkeletonsNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +401,7 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -376,7 +441,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.study_practice">
+  <component name="RunManager" selected="Python tests.pytest in 模拟测试abtestclient接口(多线程版本).py">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,50 +460,6 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <method />
-    </configuration>
-    <configuration name="3 7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/3 7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OldPasswd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hack/CTF/Day01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hack/CTF/Day01/OldPasswd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python_study" />
@@ -484,6 +505,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lasso" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/lasso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/linear_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mp3" type="PythonConfigurationType" factoryName="Python">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -506,29 +571,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="study5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQT/study5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="study_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,34 +579,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../machinelearning/kaggle/housr_price" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/study_practice.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/ridge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -619,22 +640,54 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in 模拟测试abtestclient接口(多线程版本).py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/working" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/working/模拟测试abtestclient接口(多线程版本).py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/working" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/working/模拟测试abtestclient接口压力测试版本.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.mp3" />
       <item itemvalue="Python.greb" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.3 7" />
-      <item itemvalue="Python.study5" />
-      <item itemvalue="Python.OldPasswd" />
-      <item itemvalue="Python.study_practice" />
+      <item itemvalue="Python.lasso" />
+      <item itemvalue="Python.linear_regression" />
+      <item itemvalue="Python.ridge" />
+      <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口压力测试版本.py" />
+      <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口(多线程版本).py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.study_practice" />
-        <item itemvalue="Python.OldPasswd" />
-        <item itemvalue="Python.study5" />
-        <item itemvalue="Python.3 7" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口(多线程版本).py" />
+        <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口压力测试版本.py" />
+        <item itemvalue="Python.ridge" />
+        <item itemvalue="Python.linear_regression" />
+        <item itemvalue="Python.lasso" />
       </list>
     </recent_temporary>
   </component>
@@ -660,17 +713,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_python_study_(1) - 2017.03.24 at 21h 40m 37s.xml">
-      <configuration name="Unittests in python_study (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_study_(1) - 2017.03.25 at 08h 12m 37s.xml">
-      <configuration name="Unittests in python_study (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_study_(1) - 2017.03.25 at 08h 12m 40s.xml">
-      <configuration name="Unittests in python_study (1)" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_跨平台计时方法_py - 2018.05.21 at 17h 04m 06s.xml">
       <configuration name="py.test in 跨平台计时方法.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 55m 19s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 56m 48s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 57m 41s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 58m 29s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 58m 41s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 15h 59m 05s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 16h 20m 54s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口压力测试版本_py - 2018.11.28 at 16h 21m 41s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口压力测试版本.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_模拟测试abtestclient接口(多线程版本)_py - 2018.11.28 at 16h 24m 11s.xml">
+      <configuration name="pytest in 模拟测试abtestclient接口(多线程版本).py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -683,10 +754,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1441394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19218585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -697,14 +768,14 @@
       <window_info anchor="bottom" id="Application Servers" order="5" />
       <window_info anchor="bottom" id="TagMyCode" order="6" weight="0.32998997" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" internal_type="SLIDING" order="8" sideWeight="0.49348044" type="SLIDING" weight="0.3277897" />
-      <window_info anchor="bottom" id="Python Console" internal_type="SLIDING" order="9" sideWeight="0.50651956" type="SLIDING" weight="0.29078802" />
+      <window_info anchor="bottom" id="Version Control" internal_type="SLIDING" order="8" sideWeight="0.49348044" type="SLIDING" weight="0.32850778" />
+      <window_info anchor="bottom" id="Python Console" internal_type="SLIDING" order="9" sideWeight="0.50651956" type="SLIDING" weight="0.29" />
       <window_info anchor="bottom" id="Terminal" internal_type="SLIDING" order="10" sideWeight="0.49648947" type="SLIDING" weight="0.40722167" />
-      <window_info anchor="bottom" id="Database" order="11" weight="0.3275488" />
-      <window_info anchor="bottom" id="SciView" order="12" weight="0.7416481" />
+      <window_info anchor="bottom" id="Database" order="11" weight="0.32739422" />
+      <window_info anchor="bottom" id="SciView" order="12" weight="0.74053454" />
       <window_info anchor="bottom" id="TODO" internal_type="SLIDING" order="13" sideWeight="0.49648947" type="SLIDING" weight="0.3390558" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" x="682" y="146" width="1161" height="997" id="Run" order="15" sideWeight="0.50160944" weight="0.48159203" />
+      <window_info anchor="bottom" x="682" y="146" width="1161" height="997" id="Run" order="15" sideWeight="0.50160944" weight="0.48106903" />
       <window_info anchor="bottom" id="Debug" order="16" sideWeight="0.50651956" weight="0.3264642" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="17" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Database Console" order="18" visible="true" weight="0.329718" />
@@ -772,14 +843,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2018/4/28" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/study/NR法求平方根（未完）.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/ospath.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/ReTest.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/set.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/str.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/suanfa_hash.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/suijishu.py" />
-    <entry file="file://$PROJECT_DIR$/basic/study/test.py" />
     <entry file="file://$PROJECT_DIR$/basic/study/tuple.py" />
     <entry file="file://$PROJECT_DIR$/basic/study/userpw.py" />
     <entry file="file://$PROJECT_DIR$/basic/study/webpage" />
@@ -848,64 +911,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/explore2.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="-22" />
       </provider>
-      <provider editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-22" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/explore1.csv">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="176">
           <caret line="1" column="214" selection-start-line="1" selection-start-column="214" selection-end-line="1" selection-end-column="214" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/相关图.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/linear_regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/ridge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/lasso.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/fastusing/fastusing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/影响价格的变量.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/working/moni.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1541583946289" expanded="true" signature="172:524" ph="..." />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/ThreadDemo/GeventMoreDemo.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -983,10 +1008,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/all/sample_submission.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/study_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-350">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/ridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/linear_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/lasso.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../machinelearning/sklearnstudy/fastusing/fastusing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口" />
+    <entry file="file://$PROJECT_DIR$/hack/base_tcp_udp/ssh/bh_sshRcmd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working/moni.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1541583946289" expanded="true" signature="172:524" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口压力测试版本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="102" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1382504943/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/working/模拟测试abtestclient接口(多线程版本).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+          <folding>
+            <element signature="e#134#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

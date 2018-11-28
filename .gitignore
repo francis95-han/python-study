@@ -187,3 +187,9 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+*.pyproj
+*.sln
+*.sqlite
+.idea/workspace.xml
+.vs/ProjectSettings.json
+.idea/workspace.xml
