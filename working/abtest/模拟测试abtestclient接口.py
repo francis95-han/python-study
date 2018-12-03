@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ @author zhangbohan.dell@gmail.com
-    @function:
+    @function: 测试abtest系统客户接口频率访问是否正常使用
     @create 2018/11/27 16:21"""
 
 
