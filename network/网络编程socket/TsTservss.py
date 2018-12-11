@@ -1,6 +1,6 @@
 # coding:utf-8
 __author__ = 'ZhangBohan'
-from SocketServer import (TCPServer as TCP, StreamRequestHandler as SRH)
+from socketserver import (TCPServer as TCP, StreamRequestHandler as SRH)
 from time import ctime
 
 HOST = ''
