@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../greb/.idea/greb.iml" filepath="$PROJECT_DIR$/../greb/.idea/greb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hack/.idea/hack.iml" filepath="$PROJECT_DIR$/../hack/.idea/hack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ksjs/.idea/ksjs.iml" filepath="$PROJECT_DIR$/../ksjs/.idea/ksjs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../machinelearning/.idea/machinelearning.iml" filepath="$PROJECT_DIR$/../../machinelearning/.idea/machinelearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python_study.iml" filepath="$PROJECT_DIR$/.idea/python_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qt/.idea/qt.iml" filepath="$PROJECT_DIR$/../qt/.idea/qt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
     </modules>
   </component>
 </project>

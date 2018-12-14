@@ -190,4 +190,4 @@ ModelManifest.xml
 *.sln
 .vs
 .idea
-hack/debugger/__pycache__/
+../hack/hack/debugger/__pycache__/

@@ -4,13 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/pyQT/study3.py" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bab1c338-7d3f-437d-a33b-5c89ac2d1a51" name="Default" comment="2018/12/3">
-      <change afterPath="$PROJECT_DIR$/kxjs/statistics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kxjs/statistics/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bab1c338-7d3f-437d-a33b-5c89ac2d1a51" name="Default" comment="2018/12/11">
+      <change afterPath="$PROJECT_DIR$/network/爬虫/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network/爬虫/movies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/网络编程socket/TsTservss.py" beforeDir="false" afterPath="$PROJECT_DIR$/network/网络编程socket/TsTservss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyQT/mp3.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQT/mp3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hack/Greb/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/hack/Greb/connect.py" afterDir="false" />
     </list>
     <ignored path="python_study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +72,7 @@
     <session id="910814831">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -82,6 +82,8 @@
           <entry key="project.open.time.19" value="11" />
           <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.33" value="1" />
@@ -93,7 +95,7 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.77" value="1" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,9 +104,9 @@
           <entry key="csv" value="7" />
           <entry key="gitignore" value="1" />
           <entry key="lastfailed" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="3" />
-          <entry key="py" value="141" />
+          <entry key="py" value="146" />
           <entry key="pyi" value="1" />
           <entry key="pyw" value="1" />
           <entry key="spec" value="1" />
@@ -120,9 +122,9 @@
           <entry key="CSV" value="3" />
           <entry key="Git file" value="1" />
           <entry key="Image" value="3" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="142" />
+          <entry key="Python" value="147" />
           <entry key="PythonStub" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -131,8 +133,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="79" />
-          <entry key="Python" value="4803" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="Python" value="4909" />
           <entry key="Scratch" value="35" />
         </counts>
       </usages-collector>
@@ -141,10 +143,10 @@
           <entry key="dummy" value="41" />
           <entry key="md" value="5" />
           <entry key="mp3" value="7" />
-          <entry key="py" value="4476" />
+          <entry key="py" value="4582" />
           <entry key="pyw" value="320" />
           <entry key="sql" value="35" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="15" />
           <entry key="vmoptions" value="25" />
         </counts>
       </usages-collector>
@@ -155,11 +157,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kxjs/statistics/tools.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hack/Greb/grabSinaOthersWrite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="350">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hack/Greb/connect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -210,8 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/算法/排序/桶排法.py" />
-        <option value="$PROJECT_DIR$/算法/排序/插入排序.py" />
         <option value="$PROJECT_DIR$/算法/数据结构/List列表.py" />
         <option value="$PROJECT_DIR$/算法/跨平台计时方法.py" />
         <option value="$PROJECT_DIR$/python_hack/base_tcp_udp/bhpnet.py" />
@@ -261,6 +270,8 @@
         <option value="$PROJECT_DIR$/kxjs/statistics/Tools.py" />
         <option value="$PROJECT_DIR$/kxjs/statistics/tools.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/network/爬虫/movies.py" />
+        <option value="$PROJECT_DIR$/hack/Greb/connect.py" />
       </list>
     </option>
   </component>
@@ -301,43 +312,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="kxjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="kxjs" type="462c0819:PsiDirectoryNode" />
-              <item name="statistics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="working" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (python_study) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="greb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.study5">
+  <component name="RunManager" selected="Python.lasso">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -444,20 +430,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hack/Greb" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQT/demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hack/Greb/connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,6 +465,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Greb/greb.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lasso" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../machinelearning/sklearnstudy/linearregression/lasso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -554,20 +556,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ui_transfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_study" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyQT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyQT/ui_transfer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -623,38 +622,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in 模拟测试abtestclient接口(多线程版本).py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/working" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/working/abtest/模拟测试abtestclient接口(多线程版本).py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.mp3" />
       <item itemvalue="Python.greb" />
-      <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口(多线程版本).py" />
-      <item itemvalue="Python.ui_transfer" />
-      <item itemvalue="Python.demo1" />
       <item itemvalue="Python.study4" />
       <item itemvalue="Python.study5" />
+      <item itemvalue="Python.connect" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.lasso" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lasso" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.connect" />
         <item itemvalue="Python.study5" />
         <item itemvalue="Python.study4" />
-        <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.ui_transfer" />
-        <item itemvalue="Python tests.pytest in 模拟测试abtestclient接口(多线程版本).py" />
       </list>
     </recent_temporary>
   </component>
@@ -683,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543815191605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2018/12/11">
+      <created>1544492062038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544492062038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -731,7 +721,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19218585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19218585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -815,34 +805,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018/4/28" />
     <MESSAGE value="2018/12/3" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018/12/3" />
+    <MESSAGE value="2018/12/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018/12/11" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/explore2.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-22" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-22" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/explore1.csv">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="176">
-          <caret line="1" column="214" selection-start-line="1" selection-start-column="214" selection-end-line="1" selection-end-column="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/相关图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../machinelearning/kaggle/housr_price/result/影响价格的变量.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/ThreadDemo/GeventMoreDemo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/ThreadDemo/ProcessMoreDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="845">
@@ -1077,10 +1043,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/network/爬虫/movies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kxjs/statistics/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hack/Greb/grabSinaOthersWrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hack/Greb/connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
