@@ -40,7 +40,7 @@ def main():
         print('ERROR:cannot read file "%s"' % FILE)
         os.unlink(FILE)
     else:
-        print('***Downloaed "%s" to CWD' % FILE)
+        print('***Download "%s" to CWD' % FILE)
         f.quit()
         return
 
