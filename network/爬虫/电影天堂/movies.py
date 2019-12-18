@@ -4,6 +4,5 @@
     @function: 爬取电影天堂的爬虫
     @create 2018/12/14 13:49"""
 
-
 web_site = "https://www.dytt8.net/"
 

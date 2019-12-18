@@ -1,0 +1,1372 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.1-version",
+    "title": "泰康人寿相关需求",
+    "termsOfService": "/",
+    "license": {
+      "name": "License",
+      "url": "/"
+    }
+  },
+  "host": "pm",
+  "basePath": "/basic/",
+  "tags": [
+    {
+      "name": "funnel-controller",
+      "description": "Funnel Controller"
+    },
+    {
+      "name": "用户详情页",
+      "description": "User Detail Controller"
+    },
+    {
+      "name": "数据概览",
+      "description": "Data Main Controller"
+    },
+    {
+      "name": "人寿",
+      "description": "Ren Shou CH Controller"
+    }
+  ],
+  "paths": {
+    "/main/regAut": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "实名注册情况数据",
+        "operationId": "regAutUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "start",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "end",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/regAut/download": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "实名注册地址",
+        "operationId": "regAutDownlaodUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "start",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "end",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/thirty": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "30日数据",
+        "operationId": "thirtyUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/top": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "汇总数据",
+        "operationId": "mainUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/visitor": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "访客概况",
+        "operationId": "visitorUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "start",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "end",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/visitors": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "访客概况明细数据",
+        "operationId": "visitorsUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "start",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "end",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/main/visitors/download": {
+      "get": {
+        "tags": [
+          "数据概览"
+        ],
+        "summary": "访客概况明细数据地址",
+        "operationId": "downlaodUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "start",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "description": "end",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/funnelDetails": {
+      "post": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "漏斗详情",
+        "operationId": "getFunnelDetailsUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "funnelId",
+            "in": "query",
+            "description": "漏斗名称ID",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "startTime",
+            "in": "query",
+            "description": "查询开始时间",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "endTime",
+            "in": "query",
+            "description": "查询结束时间",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/getAllFunnelList": {
+      "post": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "获取所有漏斗列表",
+        "operationId": "getAllFunnelListUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "keyName",
+            "in": "query",
+            "description": "搜索关键字",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "显示第几页",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "pageNo",
+            "in": "query",
+            "description": "每页显示几条",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/getAllFunnelName": {
+      "get": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "获取所有漏斗名称",
+        "operationId": "getAllFunnelNameUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "query",
+            "description": "groupId",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/getFunctionGroups": {
+      "get": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "获取所有功能组",
+        "operationId": "getFunctionGroupsUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/getStepPages": {
+      "get": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "获取所有页面中文名",
+        "operationId": "getStepPagesUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/pageDetails": {
+      "post": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "页面详情列表",
+        "operationId": "getPageDetailsUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "pageId",
+            "in": "query",
+            "description": "页面ID",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "startTime",
+            "in": "query",
+            "description": "查询开始时间",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "endTime",
+            "in": "query",
+            "description": "查询结束时间",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/saveFunnel": {
+      "post": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "新建漏斗",
+        "operationId": "saveFunnelUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "funnelReq",
+            "description": "funnelReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/FunnelReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/pm/funnel/updateFunnelStatus": {
+      "post": {
+        "tags": [
+          "funnel-controller"
+        ],
+        "summary": "更新漏斗状态",
+        "operationId": "updateFunnelStatusUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "status",
+            "in": "query",
+            "description": "修改状态：1-运行中，2-终止，3-删除",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "funnelId",
+            "in": "query",
+            "description": "漏斗ID",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/renshouch/branch": {
+      "post": {
+        "tags": [
+          "人寿"
+        ],
+        "summary": "分公司信息",
+        "operationId": "branchUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/renshouch/channel": {
+      "post": {
+        "tags": [
+          "人寿"
+        ],
+        "summary": "渠道信息",
+        "operationId": "channelUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/renshouch/download": {
+      "get": {
+        "tags": [
+          "人寿"
+        ],
+        "summary": "download",
+        "operationId": "downloadUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/renshouch/test": {
+      "get": {
+        "tags": [
+          "人寿"
+        ],
+        "summary": "test",
+        "operationId": "testUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/renshouch/topmsg": {
+      "get": {
+        "tags": [
+          "人寿"
+        ],
+        "summary": "顶部信息",
+        "operationId": "registermsgUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/downloadRank": {
+      "get": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "downloadRank",
+        "operationId": "downloadRankUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "deviceId",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "startTime",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "endTime",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/getNativeRank": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "获取使用排行",
+        "operationId": "getNativeRankUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "nativeRankReq",
+            "description": "nativeRankReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NativeRankReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/userList": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "用户列表接口",
+        "operationId": "getUserListUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "description": "version",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "userListReq",
+            "description": "userListReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserListReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/userList/{version}": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "用户列表接口",
+        "operationId": "getUserListUsingPOST_1",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "version",
+            "in": "path",
+            "description": "version",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "userListReq",
+            "description": "userListReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserListReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/userMsg": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "用户信息接口",
+        "operationId": "getUserMsgUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "userReq",
+            "description": "userReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/UserReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/userNative": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "用户行为轨迹接口",
+        "operationId": "getUserNativeUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "nativeReq",
+            "description": "nativeReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/NativeReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/userDetail/userNativeAll": {
+      "post": {
+        "tags": [
+          "用户详情页"
+        ],
+        "summary": "全部用户行为轨迹接口",
+        "operationId": "getUserNativeAllUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "deviceReq",
+            "description": "deviceReq",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/DeviceReq"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/BaseResponse"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "BaseResponse": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "data": {
+          "type": "object"
+        },
+        "msg": {
+          "type": "string"
+        }
+      }
+    },
+    "DeviceReq": {
+      "type": "object",
+      "properties": {
+        "deviceId": {
+          "type": "string"
+        },
+        "pageNum": {
+          "type": "string"
+        },
+        "pageSize": {
+          "type": "string"
+        }
+      }
+    },
+    "FunnelReq": {
+      "type": "object",
+      "properties": {
+        "createrId": {
+          "type": "integer",
+          "format": "int32",
+          "description": "创建人ID"
+        },
+        "endTime": {
+          "type": "string",
+          "description": "查询结束时间"
+        },
+        "functionGroupId": {
+          "type": "integer",
+          "format": "int32",
+          "description": "功能组名称id"
+        },
+        "funnelName": {
+          "type": "string",
+          "description": "漏斗名称"
+        },
+        "startTime": {
+          "type": "string",
+          "description": "查询开始时间"
+        },
+        "stepPagesId": {
+          "type": "array",
+          "description": "漏斗过滤页面",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "NativeRankReq": {
+      "type": "object",
+      "properties": {
+        "deviceId": {
+          "type": "string"
+        },
+        "endTime": {
+          "type": "string"
+        },
+        "startTime": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "NativeReq": {
+      "type": "object",
+      "properties": {
+        "anative": {
+          "type": "string"
+        },
+        "deviceId": {
+          "type": "string"
+        },
+        "endTime": {
+          "type": "string"
+        },
+        "startTime": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "UserListReq": {
+      "type": "object",
+      "properties": {
+        "area": {
+          "type": "string"
+        },
+        "endTime": {
+          "type": "string"
+        },
+        "installEndTime": {
+          "type": "string"
+        },
+        "installStartTime": {
+          "type": "string"
+        },
+        "mobilPhone": {
+          "type": "string"
+        },
+        "pageNum": {
+          "type": "string"
+        },
+        "pageSize": {
+          "type": "string"
+        },
+        "phoneNum": {
+          "type": "string"
+        },
+        "startTime": {
+          "type": "string"
+        }
+      }
+    },
+    "UserReq": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

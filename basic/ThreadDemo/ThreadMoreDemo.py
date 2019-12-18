@@ -7,9 +7,10 @@
 from threading import Thread
 from pythonds.basic.queue import Queue
 import time
-from lxml import etree
+from lxml import html
 import requests
 
+etree = html.etree
 
 class DouBanSpider(Thread):
     def __init__(self, url, q):

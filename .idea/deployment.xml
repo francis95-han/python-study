@@ -5,7 +5,6 @@
       <paths name="root@192.168.137.1:22">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$/../../machinelearning" web="/" />
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>

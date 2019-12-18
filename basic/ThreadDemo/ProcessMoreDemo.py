@@ -8,9 +8,10 @@
 from multiprocessing import Process, Queue
 
 import time
-from lxml import etree
+from lxml import html
 import requests
 
+etree =html.etree
 
 class DouBanSpider(Process):
     def __init__(self, url, q):
@@ -48,7 +49,7 @@ class DouBanSpider(Process):
         :return:
         '''
         response = self.send_request(self.url)
-        html = etree.HTML(response)
+        html = lxml.HTML(response)
         # 　获取到一页的电影数据
         node_list = html.xpath("//div[@class='info']")
         for move in node_list:

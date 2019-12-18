@@ -8,12 +8,15 @@
 
 from pythonds.basic.queue import Queue
 import time
-from lxml import etree
+from lxml import html
 import requests
 import gevent
 
+
 #　打上猴子补丁
 from gevent import monkey
+
+etree= html.etree
 monkey.patch_all()
 
 class DouBanSpider(object):
